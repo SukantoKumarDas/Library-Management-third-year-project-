@@ -1,0 +1,19 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+.img{
+    width: auto;
+    height: auto;
+}
+.container h2{
+    text-align: center;
+}
+.row{
+    margin-top:auto;
+}
+.cont{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+<!-- body section -->
+  <div class="section">
+    <div class="cards">
+      <div class="all-books">
+        <h1>Requested Book List</h1>
+      </div>
+    </div>
+    <div class="container">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Number</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>ISBN NUmber</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% var i=1 %> 
+          <% Books.forEach(function(Book){ %>
+            <tr class="clickable-row" data-href="https://w...content-available-to-author-only...e.com/feed/history">
+              <td><%= i %> </td>
+              <% i++; %> 
+              <td><%= Book.title%></td>
+              <td><%= Book.author%></td>
+              <td><%= Book.isbn_number%></td>
+            </tr>
+          <% }) %> 
+        </tbody>
+      </table>
+    </div>
+  </div>
+<!-- end Body -->
+<%- include('partials/footer') %>

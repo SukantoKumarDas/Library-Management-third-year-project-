@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://kit.fontawesome.com/ec9dad747f.js" crossorigin="anonymous"></script>
+    <title>SUST LIBRARY</title>
+    <link rel="stylesheet" href="css/addNewBook.css">
+
+</head>
+
+<body>
+    <header class="navBar">
+        <label class="logo">Admin Panel</label>
+        <a href="/home" class="btn btn-outline-primary">BACK</a>
+    </header>
+    <img src="./images/library1.jpg" class="library1"></img>
+    <form class="form" action="/addBook" method="post">
+        <label>Book Title</label><br>
+        <input type="text" name="title" placeholder="Book title"><br>
+        <label>Author Name</label><br>
+        <input type="text" name="author" placeholder="Author name"><br>
+        <label>Book Catagory</label><br>
+        <input type="text" name="category" placeholder="Book Category"><br>
+        <label>Number Of Books</label><br>
+        <input type="number" name="stock" placeholder="Number of books"><br>
+        <button type="submit" class="bttn btn-primary">Add</button>
+    </form>
+</body>
+
+</html>

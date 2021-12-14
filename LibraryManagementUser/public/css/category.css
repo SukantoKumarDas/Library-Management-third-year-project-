@@ -1,0 +1,31 @@
+.nav-links ul ul li a {
+  display: block;
+  padding: 0px;
+  color: rgb(246, 250, 250);
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 15px;
+}
+.nav-links ul ul li a:hover {
+  color: rgb(50, 50, 216);
+}
+.nav-links ul ul {
+  position: absolute;
+  top: 70px;
+  display: none;
+  background-color: rgb(8, 8, 8);
+}
+.nav-links ul li:hover > ul {
+  display: block;
+}
+.nav-links ul ul li {
+  width: 250px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.nav-links ul ul a {
+  height: 26px;
+  text-align: center;
+  margin-top: 3px;
+}

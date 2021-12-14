@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+<!-- body section -->
+  <div class="section">
+    <div class="cards">
+      <div class="all-books">
+        <h1>All Books</h1>
+      </div>
+      <% console.log("Hellow") %> 
+      <% Books.forEach(function(Book){ %>
+      <div class="card">
+        <div class="image-section">
+          <img src="./images/book1.jpg" alt="author" class="">
+        </div>
+        <div class="description">
+          <h1><%= Book.title %> </h1>
+          <h1>Author:<%= Book.author %> </h1>
+          <h1>Stock:<%= Book.stock %></h1>
+          <h1>Lend:<%= Book.lend %></h1>
+        </div>
+        <div class="button-group">
+          <a href="/book/<%=Book._id %> " class="remove">view details </a>
+        </div>
+        <div class="star-icons">
+          <a href=""><i class="fas fa-star" aria-hidden="false"></i></a>
+          <a href=""><i class="fas fa-star" aria-hidden="false"></i></a>
+          <a href=""><i class="fas fa-star" aria-hidden="false"></i></a>
+          <a href=""><i class="fas fa-star" aria-hidden="false"></i></a>
+          <a href=""><i class="fas fa-star" aria-hidden="false"></i></a>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+<!-- end Body -->
+<%- include('partials/footer') %>

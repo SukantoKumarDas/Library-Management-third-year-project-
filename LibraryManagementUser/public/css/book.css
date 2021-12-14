@@ -1,0 +1,27 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+.img{
+    width: auto;
+    height: auto;
+}
+.container h2{
+    text-align: center;
+}
+.row{
+    margin-top:auto;
+}
+.cont{
+    text-align: center;
+}
+.card-img-top{
+    position: relative;
+    margin-left: 140px;
+}
+.card{
+    position: relative;
+    top: 100px;
+}

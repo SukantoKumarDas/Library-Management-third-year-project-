@@ -1,0 +1,20 @@
+{
+  "name": "librarymanagementadmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sukanto & Mehedi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "mongoose": "^6.1.1"
+  }
+}

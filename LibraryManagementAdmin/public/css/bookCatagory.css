@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,800;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eee;
+}
+
+.cards{
+
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.cards .all-books{
+    width: 100%;
+    margin-top: 20px;
+}
+.cards .all-books h1{
+    text-align: center;
+    font-size: 50px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.cards .all-books h1:after{
+    content: "";
+    height: 5px;
+    width: 325px;
+    background-color: #222;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgb(0,0,0,25%);
+    width: 325px;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer; 
+    background-color: #fff;
+}
+.image-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    text-align: center;
+    margin-top: 20px;
+}
+.description h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.button-group{
+    margin-top: 30px;
+}
+.button-group .cart{
+    background-color: #f2333a;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.button-group .cart:hover{
+   background-color: #222;
+   transition: 0.6s ease;
+}
+.button-group .remove{
+    background-color: #1976d2;
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.button-group .remove:hover{
+   background-color: rgb(14, 13, 13);
+   transition: 0.6s ease;
+}
+.star-icons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.star-icons{
+    color:#db8b21;
+    padding: 0px 3px;
+    font-size: 18px;
+}

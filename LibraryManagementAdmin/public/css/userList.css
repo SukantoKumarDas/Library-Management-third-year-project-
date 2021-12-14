@@ -1,0 +1,34 @@
+.table {
+    border-spacing: 0px;
+    width: 100%;
+  }
+
+  .container {
+    top: 100px;
+    left: 30px;
+  }
+
+  thead {
+    background-color: black;
+  }
+
+  th {
+    color: rgb(46, 224, 224);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  tbody {
+    background-color:#F5F5F5;
+  }
+  .tdd{
+    color: black;
+  }
+  a{
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+  }

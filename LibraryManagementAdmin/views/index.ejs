@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="" />
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <title>SUST LIBRARY</title>
+</head>
+
+<body>
+  <header>
+    <label class="logo">SUST LIBRARY</label>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#" class="btn btn-outline-success"data-bs-toggle="modal"
+              data-bs-target="#loginModal">log in</a></li>
+            <li><a href="about" class="btn btn-outline-primary">Contact Us</a></li>
+        </ul>
+    </nav>
+  </header>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/library1.jpg" class="d-block w-100" width="400" height="800" alt="...">
+        <div class="heading">
+          <h2>WELCOME TO OUR LIBRARY</h2>
+          <h4>Effectively Manage, Track, and Perform Daily Library Operations
+            with Ease!</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/library2.jpg" class="d-block w-100" width="400" height="800" alt="...">
+        <div class="heading">
+          <h2>WELCOME TO OUR LIBRARY</h2>
+          <h4>Effectively Manage, Track, and Perform Daily Library Operations
+            with Ease!</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/library3.jpg" class="d-block w-100" width="400" height="800" alt="...">
+        <div class="heading">
+          <h2>WELCOME TO OUR LIBRARY</h2>
+          <h4>Effectively Manage, Track, and Perform Daily Library Operations
+          with Ease!</h4>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <!-- log in -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Lon In</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form class="" action="/login" method="post">
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Email</label>
+              <input type="email" class="form-control" name="loginUsername" id="formGroupExampleInput" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Password</label>
+              <input type="password" class="form-control" name="loginPassword" id="formGroupExampleInput2" placeholder="Enter password">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="goto" href="">
+              <button type="submit" class="btn btn-secondary bg-primary">submit</button>
+            </a>
+          </div>
+       </form>
+      </div>
+    </div>
+  </div>
+    <!-- signup-->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form class="" action="/signUp" method="post" >
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">First Name</label>
+              <input type="text" class="form-control" name="firstname" id="formGroupExampleInput" placeholder="Enter first name">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Last Name</label>
+              <input type="text" class="form-control" name="lastname" id="formGroupExampleInput" placeholder="Enter last name">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Department</label>
+              <input type="text" class="form-control" name="department" id="formGroupExampleInput" placeholder="Enter departmjent">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" id="formGroupExampleInput" placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Password</label>
+              <input type="password" class="form-control" name="password" id="formGroupExampleInput2" placeholder="Enter password">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="goto" href="">
+                <button type="submit" class="btn btn-secondary bg-primary">submit</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+</html>
