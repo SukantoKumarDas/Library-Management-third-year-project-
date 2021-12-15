@@ -2,7 +2,7 @@
 ## Developed by:
 *Mehedi Hasan(Registration Number:2017331043),Sukanto Kumar Das(Registration Number:2017331091)*
 ## Motivation
-*We did this project as a part of our academic cousres which are Database Management System and Software Engineering.Our idea was to develop a system where student can see which books are available in the library.The students can see the rivews of the books and can rivew or rate books according to their choices.The student can notify the authority about new collections of book they need.The authority can take action of adding new books,notify students about late submission of books.*
+We did this project as a part of our academic cousres which are Database Management System and Software Engineering.Our idea was to develop a system where student can see which books are available in the library.The students can see the rivews of the books and can rivew or rate books according to their choices.The student can notify the authority about new collections of book they need.The authority can take action of adding new books,notify students about late submission of books.
 ## Features of our project
 In our project we developed two different sites for the user(Students) and for the admin(library authority).
 ### User site
@@ -21,7 +21,21 @@ In our project we developed two different sites for the user(Students) and for t
  - Admin add new book.
 ### Video Link
 https://youtu.be/dHrZt2yMkOA
-### How to set up!
+### How to configure in your machine?
+1.Clone the project in your machine.
+2.There are two folder named "LibraryManagementUser" and "LibraryManagementAdmin".
+3.Open the seperately with vscode.
+4.Press ctrl+~ key for terminal.
+5.Run the following command in both project's terminal one by one.
+- npm install ejs
+- npm install body-parser
+- npm install express
+- npm install loadash
+- npm install lodash
+- npm install md5
+- npm install mongoose
+- npm app.js
+6.Open your browser and go to "http://localhost:3000/" for user site and "http://localhost:5000" for admin site.
 ### User Site Site Screenshot
 ![index_page_with_sign_up](https://user-images.githubusercontent.com/50594937/145994759-847b1665-7ab6-40b4-acaa-868d731c0859.png)
 ![categorry wise search](https://user-images.githubusercontent.com/50594937/145994974-6aec0510-2882-4089-a142-cc9fe05d743d.png)
